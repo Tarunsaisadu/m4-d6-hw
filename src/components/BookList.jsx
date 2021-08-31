@@ -47,7 +47,7 @@ const BookList = ({ books }) => {
                         //   this.state.selectedBook
                         selectedBook
                       }
-                      changeSelectedBook={(asin) => setSeletedBook(asin)}
+                      changeSelectedBook={(asin) => setSeletedBook(b.asin)}
                     />
                   </Col>
                 ))
